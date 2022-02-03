@@ -1,13 +1,11 @@
-﻿// CppNet.cpp : アプリケーションのエントリ ポイントを定義します。
-//
-#include "CppNet.h"
+﻿#include "CppNet.h"
 
 using namespace std;
 #pragma comment(lib, "ws2_32.lib")
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	cout << "Server Initializing..." << endl;
 
 	WSADATA wsaData;
 	SOCKET sockListen;
